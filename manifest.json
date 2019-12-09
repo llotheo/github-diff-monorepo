@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "author": "kazuya gosho",
+  "name": "github-diff-monorepo",
+  "description": "A chrome extension to filter GitHub changed files in monorepo",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/llotheo/github-diff-monorepo",
+  "browser_action": {
+    "default_icon": "icon-off.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/files*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://github.com/*/files*"
+  ]
+}

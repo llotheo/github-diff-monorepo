@@ -1,0 +1,11 @@
+{
+  "name": "github-diff-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:llotheo/github-diff-monorepo",
+  "author": "gosho-kazuya <ketsume0211@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
