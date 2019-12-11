@@ -5,6 +5,9 @@
   "repository": "git@github.com:llotheo/github-diff-monorepo",
   "author": "gosho-kazuya <ketsume0211@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "zip github-diff-monorepo.zip manifest.json main.js popup.html icon-off.png"
+  },
   "devDependencies": {
     "prettier": "^1.19.1"
   }
